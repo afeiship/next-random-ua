@@ -1,18 +1,22 @@
 # next-random-ua
 > Get a random user agent.
 
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
+
 ## installation
 ```bash
-npm install -S @feizheng/next-random-ua
+npm install -S @jswork/next-random-ua
 ```
 
 ## usage
 ```js
-import '@feizheng/next-random-ua';
+import '@jswork/next-random-ua';
 
 nx.randomUa();
 nx.randomUa(3);
-
 
 // One: String
 // 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5X Build/MDB08L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36'
@@ -27,3 +31,18 @@ nx.randomUa(3);
 
 ## resources
 - https://github.com/skratchdot/random-useragent
+
+## license
+Code released under [the MIT license](https://github.com/afeiship/next-random-ua/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@jswork/next-random-ua
+[version-url]: https://npmjs.org/package/@jswork/next-random-ua
+
+[license-image]: https://img.shields.io/npm/l/@jswork/next-random-ua
+[license-url]: https://github.com/afeiship/next-random-ua/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-random-ua
+[size-url]: https://github.com/afeiship/next-random-ua/blob/master/dist/next-random-ua.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-random-ua
+[download-url]: https://www.npmjs.com/package/@jswork/next-random-ua

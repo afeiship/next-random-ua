@@ -1,23 +1,22 @@
 /*!
- * name: @feizheng/next-random-ua
+ * name: @jswork/next-random-ua
  * description: Get a random user agent.
  * homepage: https://github.com/afeiship/next-random-ua
  * version: 1.0.0
- * date: 2020-06-13T02:21:14.949Z
+ * date: 2020-11-20 21:54:32
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var randomUa = require('random-useragent');
 
   nx.randomUa = function (inLength) {
     if (!inLength) return randomUa.getRandom();
     var result = [];
-    var i = 0;
-    for (; i < inLength; i++) {
-      result.push(randomUa.getRandom())
+    for (var i = 0; i < inLength; i++) {
+      result.push(randomUa.getRandom());
     }
     return result;
   };
@@ -26,5 +25,3 @@
     module.exports = nx.randomUa;
   }
 })();
-
-//# sourceMappingURL=next-random-ua.js.map
