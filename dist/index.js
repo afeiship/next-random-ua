@@ -3,7 +3,7 @@
  * description: Get a random user agent.
  * homepage: https://github.com/afeiship/next-random-ua
  * version: 1.0.0
- * date: 2020-11-20 21:54:32
+ * date: 2020-11-20 21:55:34
  * license: MIT
  */
 
