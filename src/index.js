@@ -5,11 +5,8 @@
 
   nx.randomUa = function (inLength) {
     if (!inLength) return randomUa.getRandom();
-    var result = [];
-    for (var i = 0; i < inLength; i++) {
-      result.push(randomUa.getRandom());
-    }
-    return result;
+    var result = new Array(inLength).fill(null);
+    return result.map(randomUa.getRandom);
   };
 
   if (typeof module !== 'undefined' && module.exports) {
