@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-random-ua",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a random user agent.",
   "homepage": "https://github.com/afeiship/next-random-ua",
   "author": {
